@@ -69,6 +69,3 @@ if st.session_state.done:
         st.session_state.messages = []
         st.session_state.done = False
         st.rerun()
-                except Exception as e:
-                    st.error(f"Error AI: {e}")
-
